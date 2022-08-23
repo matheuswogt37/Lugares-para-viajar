@@ -8,4 +8,12 @@
 body{
     background-color: rgba(rgba(199, 209, 105, 0.363));
 }
+p{
+    margin: 0%;
+}
+.container{
+    display: flex;
+}
+.flex{
 
+}
