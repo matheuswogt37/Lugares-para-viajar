@@ -9,3 +9,42 @@ body{
     background-color: rgba(rgba(199, 209, 105, 0.363));
 }
 
+/* /home */
+
+.slides {
+    display:none;
+}
+
+.but_prev, .but_next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.but_next {
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+.but_prev:hover, .but_next:hover {
+background-color: rgba(0,0,0,0.8);
+}
+
+.img_about_text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
