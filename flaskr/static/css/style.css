@@ -45,14 +45,7 @@
 .y100{
     height: 100%;
 }
-
-/*estilo*/
 body{
-    background-color: rgba(199, 209, 105, 0.363);
+    background-color: rgba(rgba(199, 209, 105, 0.363));
 }
-p{
-    margin: 0%;
-}
-.container{
-    display: flex;
-}
+
